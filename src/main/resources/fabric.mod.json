@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "piglinquit",
+	"version": "${version}",
+	"name": "Piglin Quit",
+	"description": "Disconnects you from a server if no zombified piglin has been loaded for 10 seconds. Shows a countdown.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.piglinquit.PiglinQuitClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
